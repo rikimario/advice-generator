@@ -82,6 +82,7 @@ body {
   max-width: 30rem;
   padding: 2rem;
   border-radius: 10px;
+  position: fixed;
 }
 
 .container > * {
@@ -89,7 +90,7 @@ body {
 }
 
 .container img {
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .advice {
@@ -112,5 +113,11 @@ body {
 .diceBtn:hover {
   cursor: pointer;
   box-shadow: 0 0 15px 2px var(--clr-green);
+}
+
+.btn {
+  position: absolute;
+  z-index: 1;
+  margin-top: 265px;
 }
 
